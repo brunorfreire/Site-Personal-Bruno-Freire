@@ -1,0 +1,6 @@
+{
+  "name": "Bruno Freire | Personal Trainer",
+  "description": "Personal trainer em Copacabana, Botafogo e Ipanema. Treinamento personalizado para pessoas 40+, emagrecimento, força, mobilidade e qualidade de vida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

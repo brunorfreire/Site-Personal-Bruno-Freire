@@ -1,0 +1,8 @@
+# Pasta para fotos originais do Bruno Freire e Melhor Forma
+# Exemplos recomendados:
+# - bruno-hero.jpg
+# - bruno-treino.jpg
+# - resultado-1.jpg
+# - resultado-2.jpg
+# - resultado-3.jpg
+# - logo.png (opcional)

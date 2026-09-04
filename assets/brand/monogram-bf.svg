@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bf-grad-primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E88F" />
+      <stop offset="60%" stop-color="#087A58" />
+      <stop offset="100%" stop-color="#0A2E36" />
+    </linearGradient>
+    <linearGradient id="bf-grad-vibrant" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#087A58" />
+      <stop offset="100%" stop-color="#00E88F" />
+    </linearGradient>
+    <linearGradient id="bf-grad-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E88F" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Backbone / Vertical Pillar (Longevidade e Força Estrutural) -->
+  <rect x="18" y="15" width="11" height="70" rx="5.5" fill="url(#bf-grad-primary)" />
+
+  <!-- Superior: Topo do F e Arco Superior do B -->
+  <path d="M 29 21 H 68 C 76.5 21 82 26.5 82 34 C 82 41.5 76.5 47 68 47 H 29" 
+        stroke="url(#bf-grad-vibrant)" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+
+  <!-- Traço Central Dinâmico: Barra Central do F (Direção, Evolução e Movimento) -->
+  <path d="M 29 47 H 64 L 72 47" 
+        stroke="#00E88F" 
+        stroke-width="10" 
+        stroke-linecap="round" />
+
+  <!-- Inferior: Base e Arco Inferior do B (Estabilidade e Autonomia) -->
+  <path d="M 29 47 H 69 C 78.5 47 84 53.5 84 63 C 84 72.5 78.5 79 69 79 H 29" 
+        stroke="url(#bf-grad-primary)" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+
+  <!-- Ponto de Precisão / Vitalidade Futura -->
+  <circle cx="23.5" cy="20.5" r="2.5" fill="#F5F7F8" opacity="0.9" />
+</svg>
