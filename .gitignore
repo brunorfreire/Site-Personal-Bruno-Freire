@@ -1,6 +1,6 @@
 node_modules/
 build/
-#dist/
+# dist/ incluído a pedido do usuário
 coverage/
 .DS_Store
 *.log
