@@ -28,7 +28,7 @@ export const FinalCTA: React.FC = () => {
             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-[#00E88F] hover:bg-[#00d07f] text-[#070B10] font-extrabold text-base transition-all duration-200 shadow-xl shadow-emerald-500/25 active:scale-95"
           >
             <MessageCircle className="w-5 h-5 fill-[#070B10]" />
-            <span>Quero conversar com o Bruno</span>
+            <span>Verificar disponibilidade de horários</span>
           </a>
 
           <a

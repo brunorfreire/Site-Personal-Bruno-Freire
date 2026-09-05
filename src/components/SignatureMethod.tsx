@@ -120,7 +120,7 @@ export const SignatureMethod: React.FC = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
             >
-              <span>Conversar diretamente com o Bruno</span>
+              <span>Agendar uma consulta preventiva</span>
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>

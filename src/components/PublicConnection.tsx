@@ -129,7 +129,7 @@ export const PublicConnection: React.FC = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-[#00E88F] hover:bg-[#00d07f] text-[#070B10] font-extrabold text-sm shrink-0 transition-all shadow-lg shadow-emerald-500/20 active:scale-95"
             >
-              <span>Quero conversar com o Bruno</span>
+              <span>Avaliar meu caso com o Bruno</span>
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>

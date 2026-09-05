@@ -16,9 +16,9 @@ const iconMap = {
 };
 
 const serviceButtonLabels: Record<string, string> = {
-  'personal-presencial': 'Quero saber sobre o personal',
-  'acompanhamento-online': 'Quero conhecer o acompanhamento online',
-  'massoterapia-recuperacao': 'Quero agendar uma sessão',
+  'personal-presencial': 'Verificar disponibilidade de horários',
+  'acompanhamento-online': 'Avaliar meu caso com o Bruno',
+  'massoterapia-recuperacao': 'Agendar uma consulta preventiva',
 };
 
 export const Services: React.FC = () => {
@@ -47,7 +47,7 @@ export const Services: React.FC = () => {
             const IconComponent = iconMap[service.iconName as keyof typeof iconMap] || Dumbbell;
             const whatsappUrl = `https://wa.me/${SITE_CONFIG.contacts.whatsappNumber}?text=${encodeURIComponent(service.whatsappMessage)}`;
             const isMassotherapy = service.id === 'massoterapia-recuperacao';
-            const buttonLabel = serviceButtonLabels[service.id] || 'Quero conversar com o Bruno';
+            const buttonLabel = serviceButtonLabels[service.id] || 'Verificar disponibilidade de horários';
 
             return (
               <div
